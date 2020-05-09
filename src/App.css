@@ -1,38 +1,140 @@
-.App {
+#frontTitle{
+  font-size: 28px;
   text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #FFDDE2;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#levelTitle{
+  font-size: 28px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a {
+ color:black;
+ text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+iframe {
+ overflow: hidden;
+ display: block;
+ width: 700px;
+ height: 700px;
+ margin: 0 auto;
+ border: 0;
 }
 
-.App-link {
-  color: #61dafb;
+body{
+ margin:0;
+ font-family: 'Sawarabi Mincho', sans-serif;
+ background-color: #FAB3A9;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-bar-con {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.data-title{
+ text-align: center;
+ font-family: 'Sawarabi Mincho', sans-serif;
+}
+.kan-title {
+text-align: center;
+font-weight: normal;
+font-size: 2.6rem;
+}
+
+.kanji {
+max-width: 650px;
+padding: 20px;
+margin: 30px auto;
+background-color: #F7F7F7;
+box-shadow: 3px 3px 3px rgba(0, 0, 0, .1);
+overflow: hidden;
+}
+
+.kanji h4 {
+margin: 0 0 6px 0;
+}
+
+.kan-photo {
+float: left;
+width: 40%;
+margin-right: 15px;
+}
+
+.kan-name {
+font-size: 2rem;
+font-weight: normal;
+margin: 0 0 1rem 0;
+}
+
+.species {
+font-size: .9rem;
+color: #888;
+vertical-align: middle;
+}
+
+.kan-list {
+margin: 0;
+padding: 0;
+position: relative;
+left: 17px;
+font-size: .85rem;
+line-height: 1.5;
+}
+
+.footer {
+font-size: .7rem;
+color: #888;
+text-align: center;
+margin: 0;
+}
+
+.meaning {
+font-size: 1rem;
+font-weight: normal;
+margin: 0 0 1rem 0;
+}
+.saturate {
+-webkit-filter: saturate(7); filter: saturate(7);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #F79D96;
+  animation-name: example;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+}
+
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #73A6AD;
+}
+
+.words{
+font-size: 1rem;
+color: #5d5955;
+margin: 0 0 1rem 0;
 }
