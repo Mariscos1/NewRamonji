@@ -11,7 +11,7 @@ function App() {
   return (
     <BrowserRouter>
       <div>
-        <p id = "frontTitle" ><Link to= '/'> Ramonji / ラモンジ </Link></p>
+        <p id = "frontTitle" ><Link to= '/'> Ramonji / ラモーンジ </Link></p>
         <Main/>
       </div>
     </BrowserRouter>
